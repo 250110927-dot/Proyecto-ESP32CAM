@@ -32,3 +32,8 @@ Se encargó del entrenamiento del modelo de reconocimiento en Edge Impulse, la c
 finales. Aprendió la importancia de un dataset bien preparado y de un proceso adecuado de clasificación para obtener mejores resultados. 
 También lideró la fase de validación, verificando que cada objeto identificado activara el LED correspondiente y mostrara su etiqueta en
 el display OLED, confirmando el funcionamiento correcto del prototipo.
+
+
+TRABAJOS FUTUROS
+Mejoria la carcasa y que esté mejor hecha
+Agregaría más imagenes para una mejor detección de los objetos
