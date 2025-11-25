@@ -1,0 +1,34 @@
+El desarrollo de este laboratorio brindó una experiencia práctica sobre la integración entre hardware y software en sistemas de reconocimiento
+de objetos orientados al Internet de las Cosas (IoT). Gracias al uso de la ESPCAM, la plataforma Edge Impulse y un display OLED, fue posible 
+implementar un prototipo totalmente funcional capaz de identificar objetos en tiempo real, mostrando las etiquetas correspondientes en pantalla
+y activando LEDs según el resultado de la inferencia.
+
+Durante la ejecución del proyecto, se reforzaron conocimientos relacionados con la configuración del entorno Arduino IDE, la instalación de 
+
+controladores y librerías, y la programación del módulo ESP32-CAM. Asimismo, se aplicaron los procedimientos abordados en los temas 2 y 3 del
+curso, vinculados a configuraciones básicas de hardware, comunicación serial e integración de modelos de inteligencia artificial en dispositivo
+s embebidos.
+
+Uno de los aprendizajes más relevantes fue comprobar que es posible ejecutar visión artificial directamente en un dispositivo compacto y 
+económico sin depender de una conexión constante a Internet. Este tipo de implementación demuestra el potencial del Edge Computing, al
+permitir que la inteligencia artificial funcione de manera local, reduciendo tiempos de respuesta y optimizando el consumo energético.
+
+Se identificó también que la precisión del reconocimiento está influenciada por factores como la iluminación, la distancia al objeto y la
+nitidez de la imagen. Durante las pruebas, al mejorar las condiciones de luz y el enfoque, se observó un incremento significativo en la 
+exactitud del sistema, evidenciando la importancia de la calibración y la preparación adecuada de los datos para lograr un funcionamiento 
+confiable.
+
+El laboratorio también fortaleció habilidades de trabajo colaborativo, resolución de problemas y documentación técnica. Ambas integrantes
+participaron activamente en distintas etapas del proyecto, lo que permitió obtener un resultado eficiente y una comprensión completa del 
+sistema.
+Configuración y programación del sistema:
+Realice fue responsable de la instalación del módulo ESPCAM en Windows, la configuración del entorno Arduino IDE y el desarrollo principal 
+del código del microcontrolador. Durante el proceso, adquirió experiencia en la gestión de librerías, el ajuste de parámetros de la cámara 
+y la integración del modelo generado en Edge Impulse. Su mayor aprendizaje estuvo relacionado con la estructura del programa y el 
+procedimiento de inicialización de la cámara.
+
+Entrenamiento del modelo y validación del sistema:
+Se encargó del entrenamiento del modelo de reconocimiento en Edge Impulse, la captura y etiquetado de datos, y la realización de pruebas 
+finales. Aprendió la importancia de un dataset bien preparado y de un proceso adecuado de clasificación para obtener mejores resultados. 
+También lideró la fase de validación, verificando que cada objeto identificado activara el LED correspondiente y mostrara su etiqueta en
+el display OLED, confirmando el funcionamiento correcto del prototipo.
