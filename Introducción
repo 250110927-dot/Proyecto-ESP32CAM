@@ -1,0 +1,19 @@
+El objetivo de este informe técnico es orientar al lector en el desarrollo, configuración y operación de un sistema de 
+reconocimiento de objetos utilizando la ESPCAM y la plataforma de inteligencia artificial Edge Impulse. Mediante esta práctica 
+se muestra cómo un dispositivo económico es capaz de ejecutar tareas de visión computacional, aplicando los conocimientos adquiridos 
+sobre configuración básica y programación en sistemas embebidos.
+
+La ESPCAM (ESP32-CAM) es un módulo basado en el micro controlador ESP32 que incorpora una cámara y ofrece conectividad Wi-Fi y Bluetooth.
+Su flexibilidad permite capturar imágenes, procesarlas directamente en el dispositivo y transmitir los resultados a otros equipos o servicios
+en la nube. Gracias a estas características, se ha convertido en una opción muy utilizada en proyectos de Internet de las Cosas (IoT), 
+soluciones de monitoreo y aplicaciones de inteligencia artificial en dispositivos de bajo consumo.
+
+El reconocimiento de objetos se basa en algoritmos y modelos de aprendizaje automático capaces de identificar elementos presentes en imágenes
+o secuencias de video. En este laboratorio, el modelo fue creado mediante Edge Impulse, una plataforma que simplifica el entrenamiento e implementación de redes neuronales ligeras optimizadas para ejecutarse en microcontroladores.
+
+El informe está organizado para guiar al lector a lo largo de todo el proceso: desde la instalación y verificación del módulo, pasando por la
+generación e integración de la librería, hasta la demostración del sistema en funcionamiento. Asimismo, se detallan los resultados obtenidos,
+los fragmentos de código más importantes y las conclusiones del proyecto.
+
+En conjunto, este documento busca ofrecer una guía clara y completa para comprender la aplicación de la ESPCAM en sistemas reales de
+reconocimiento visual y automatización
